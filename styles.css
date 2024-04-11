@@ -1,0 +1,141 @@
+
+        .jumbotron {
+            padding-top: 100px; 
+        }
+
+        .about-section {
+            padding-top: 150px; 
+        }
+        
+        .education-section,
+        .skills-section,
+        .portfolio-section,
+        #contact {
+            padding-top: 100px; 
+        }
+
+        /* Komposisi Warna */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f6f4f4; 
+            color: #ecf0f1; 
+        }
+
+        .skills-section,
+        .education-section,
+        .portfolio-section {
+            background-color: #f8f0f0; 
+            color: #000000; 
+            padding: 20px;
+            border-radius: 10px; 
+            margin: 20px auto; 
+        }
+    
+        /* Navigasi */
+        .navbar {
+            background-color: #f8f0f0 !important;
+        }
+    
+        .navbar-brand {
+            font-weight: bold;
+            color: #ecf0f1; 
+            font-size: 24px;
+        }
+    
+        .navbar-nav .nav-link {
+            color: #ecf0f1; 
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+    
+        .navbar-nav .nav-link:hover {
+            color: #e8ebed; 
+        }
+        .navbar {
+            height: 90px;
+        }
+    
+        /* Footer */
+        footer {
+            background-color: #f8f0f0; 
+            color: #ecf0f1; 
+            padding: 50px 0;
+        }
+    
+        footer a {
+            color: #2a9ab6; 
+            transition: color 0.3s;
+        }
+    
+        footer a:hover {
+            color: #3498db; 
+        }
+    
+        /* Bagian Contact Me dan Social Media*/
+        #contact {
+            background-color: #000000; 
+            color: #ffffff;
+            padding: 50px 0;
+        }
+
+        #contact h3 {
+            color: #ffffff; 
+        }
+
+        /* Social Media Section */
+        #social-media {
+            background-color: #f8f0f0; 
+            color: #000000; 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin: 20px auto; 
+        }
+
+        #social-media .section-heading {
+            color: #000000; 
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        #social-media a {
+            color: #fff; 
+            transition: color 0.3s;
+            text-decoration: none; 
+        }
+
+        #social-media a:hover {
+            color: #3498db; 
+        }
+
+        #social-media .row {
+            margin-left: -5px; 
+            margin-right: -5px; 
+        }
+
+        #social-media .col-md-4 {
+            padding-left: 5px; 
+            padding-right: 5px; 
+        }
+
+        /* Custom Styling */
+        .container {
+            background-color: black; 
+            color: rgb(247, 244, 244); 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin: 20px auto; 
+        }
+    
+        .about-section {
+            background-color: #f8f0f0; 
+            color: black;
+        }
+        .fixed-top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #f8f0f0;
+        }
